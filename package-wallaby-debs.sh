@@ -54,7 +54,7 @@ build_package kipr/libkar use_Qt4 "libqt4-dev"
 build_package kipr/pcompiler use_Qt4 "libqt4-dev,libkar"
 build_package kipr/daylite master "libbson-dev,libboost-dev,bsonbind"
 build_package kipr/libaurora master "libpng-dev,zlib1g-dev"
-build_package F-WuTS/libwallaby master "libcv-dev,libjpeg-dev" "-DBUILD_DOCUMENTATION=OFF -Dbuild_python=OFF"
+build_package F-WuTS/libwallaby master "libcv-dev,libjpeg-dev,libopencv-photo2.4v5" "-DBUILD_DOCUMENTATION=OFF -Dbuild_python=OFF"
 build_package kipr/libbotball master "libaurora,libwallaby"
 build_package F-WuTS/botui master "libcv-dev,libqt4-dev,pcompiler"
 
